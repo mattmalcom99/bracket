@@ -1,0 +1,19 @@
+
+<div>
+<form [formGroup]="newBracketForm" class="mainForm" >
+
+    <h1>New Tournament Name</h1>
+    <mat-form-field>
+        <input  matInput placeholder="New Tournament Name" formControlName="tournamentName">
+    </mat-form-field>
+
+    <h1>Number Of Entrants</h1>
+    <mat-form-field>
+        <input  matInput placeholder="Number Of Entrants" formControlName="numOfEntrants">
+    </mat-form-field>
+<br>
+    <button mat-raised-button color="primary">Create</button>
+
+
+</form>
+</div>
